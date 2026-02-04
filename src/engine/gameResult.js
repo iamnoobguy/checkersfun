@@ -1,5 +1,5 @@
-import { countPieces } from "./board"
-import { generateMoves } from "./moves"
+import { countPieces } from "./board.js"
+import { generateMoves } from "./moves.js"
 
 export function gameResult(state) {
   const { board, player, reps, noCap } = state

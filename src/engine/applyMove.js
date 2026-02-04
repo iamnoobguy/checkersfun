@@ -1,4 +1,4 @@
-import { cloneBoard, RK, BK } from "./board"
+import { cloneBoard, RK, BK } from "./board.js"
 
 export function applyMove(board, m) {
   let b = cloneBoard(board)
